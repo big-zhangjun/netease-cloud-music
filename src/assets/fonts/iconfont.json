@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1120959",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "1977010",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5651349",
+      "name": "爱心",
+      "font_class": "aixin1",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "10470865",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "17204061",
+      "name": "菜单",
+      "font_class": "xianxingtubiaozhizuomoban-39",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}
