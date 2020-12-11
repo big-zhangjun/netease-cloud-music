@@ -1,20 +1,35 @@
 <template>
-	<div>
-		<HeaderItem>
-			<template v-slot:menu>
-				<h1>Here might be a page title</h1>
-			</template>
-		</HeaderItem>
+	<div class="header">
+		<div class="header-menu iconfont icon-menu"></div>
+		<div class="header-title">VMUSICZJ</div>
+		<div class="header-search iconfont icon-sousuo"></div>
 	</div>
 </template>
 
 <script>
-import HeaderItem from '@/components/common/header/HeaderItem.vue'
 export default {
-	components: {
-		HeaderItem
-	}
+	components: {}
 }
 </script>
 
-<style></style>
+<style lang="less">
+.header {
+	background: @background-color;
+	color: @font-color;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	.icon-menu,
+	.icon-sousuo {
+		font-size: 20px;
+	}
+	.iconfont {
+		padding: 11px;
+	}
+	.header-title {
+		flex: 1;
+		text-align: center;
+		line-height: 44px;
+	}
+}
+</style>
